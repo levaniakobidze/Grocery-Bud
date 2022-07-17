@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8fcff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.main-wrapper {
+  width: 700px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 10px 1px rgb(233, 233, 233);
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  color: #c59d5f;
+  font-weight: bold;
+  font-size: 37px;
+}
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+}
+form input {
+  flex: 0.8;
+  border: 0;
+  outline: 0;
+  background-color: #e7e7e7;
+  font-size: 15px;
+  font-weight: bold;
+  color: #c59d5f;
+  font-style: italic;
+  height: 35px;
+  padding: 0 10px;
+  border-radius: 10px 0 0 10px;
+}
+::placeholder {
+  color: #c59d5f;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+}
+button {
+  width: 50px;
+  height: 35px;
+  border: 0;
+  outline: 0;
+  background-color: #c59d5f;
+  color: #fff;
+  border-radius: 0 10px 10px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+.list-wrapper {
+  width: 100%;
+  padding: 0 80px;
+}
+
+.list-item {
+  list-style: none;
+  background-color: rgb(248, 248, 248);
+  margin: 10px 0;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+}
+.error {
+  width: 540px;
+  margin: 20px auto;
+  background-color: rgb(255, 194, 194);
+  border-radius: 10px;
+  line-height: 30px;
+  letter-spacing: 4px;
+  color: rgb(83, 12, 12);
+  display: flex;
+  justify-content: center;
+}
+
+.succsess {
+  width: 540px;
+  margin: 20px auto;
+  background-color: rgb(131, 255, 187);
+  border-radius: 10px;
+  line-height: 30px;
+  letter-spacing: 4px;
+  color: rgb(3, 73, 35);
+  display: flex;
+  justify-content: center;
+}
+.delete-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
